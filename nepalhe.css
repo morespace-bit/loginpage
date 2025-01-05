@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("back4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #BF247A;
+}
+label{
+    display: block;
+    margin-bottom: 3px;
+    font-family: sans-serif;
+}
+.form{
+    width: 300px;
+    height: 350px;
+    border: 1px hidden black;
+    padding: 30px;
+    display: flex;
+    background-color: #45214A;
+    border-radius: 6px;
+    
+    
+}
+
+button{
+    display: block;
+    margin-top: 25px;
+    height: 25px;
+    width: 100px;
+    border-radius: 9px;
+    border: 1px hidden black;
+    background-color: #BF247A;
+    font-family: impact;
+    font-weight: 50;
+    font-size: 15px;
+    padding: 4px 5px;
+    
+   
+}
+#heading{
+    margin-bottom: 20px;
+}
+
+input[type=email]{
+    width: 105%;
+    height: 25px;
+}
+
+
+input[type=password]{
+    width: 105%;
+    height: 25px;
+}
+
+#pass{
+    margin-top: 15px;
+}
+
+input[type=checkbox]
+{
+    margin-left: -5px;
+    margin-top: 10px;
+    border-radius: 0px;
+    width: 25px;
+    height: 15px;
+}
+span{
+    margin-top: -10px;
+    font-family: sans-serif;
+}
+.after{
+    display: inline-block;
+    margin-top: 20px;
+   
+}
+#help{
+    margin-left: 10px;
+}
+#need{
+    display: block;
+    margin-top: 10px;
+}
+h2{
+    font-family: roboto;
+}
+a{
+    color: #BF247A;
+    
+}
+p{
+    display: inline-block;
+}
+#here{
+    margin-left: 3px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.name{
+    margin-top: 15px;
+}
